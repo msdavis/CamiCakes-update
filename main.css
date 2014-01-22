@@ -1,8 +1,11 @@
+	body {
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	}
 	.header {
 		width: 800px;
 		height: 125px;
-		margin-left: 90px;
-		background: pink;
+		margin-left: 180px;
+		background: #FABBDC;
 	}
 
 	.cclogo {
@@ -14,18 +17,22 @@
 	.nav {
 		position: absolute;
 		top: 100px;
-		right: 275px;
+		right: 200px;
 	}
 	
 	.nav_link {
 		clear: both;
 		padding: 12px;
 		color: #663300;
-		font-family: 'Montserrat Alternates', sans-serif;
+		text-decoration: none;
+	}
+
+	.nav_link:hover {
+		color: white;
 	}
 	
 	.main_image {
-		margin-left: 90px;
+		margin-left: 180px;
 		width: 980px;
 	}
 
@@ -33,26 +40,25 @@
 		position: relative;
 		width: 800px;
 		height: 400px;
-		margin-left: 90px;
-		background: pink;
-		bottom: 4px;
+		margin-left: 180px;
+		background: #FABBDC;
+		bottom: 5px;
 	}
 
 	.footer {
 		position: relative;
 		width: 800px;
 		height: 75px;
-		margin-left: 90px;
+		margin-left: 180px;
 		background: #663300;
 		position: relative;
-		bottom: 4px;
+		bottom: 5px;
 	}
 
 	.locations {
 		position: absolute;
 		text-align: center;
 		line-height: 1.5em;
-		font-family: 'Montserrat Alternates', sans-serif;
 		color: white;
 		left: 85px;
 		bottom: 2px;
